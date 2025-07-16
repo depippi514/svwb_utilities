@@ -58,7 +58,6 @@ export default function Home() {
               </Card>
             </Grid.Col>
 
-            {/* Tool Card 2: (仮) デッキ構築シミュレーター */}
             <Grid.Col span={{ base: 12, md: 12, lg: 6 }}>
               <Card
                 shadow="xl"
@@ -78,7 +77,7 @@ export default function Home() {
                   (作成予定) リノセウス打点計算シミュレーター
                 </Title>
                 <Text c="blue.4" style={{ flexGrow: 1 }}>
-                  カードの枚数を入力すると出せる打点を自動計算して.....くれるものがつくれたら
+                  カードの枚数を入力すると出せる打点を自動計算するもの作ろうかな
                 </Text>
                 <Button
                   component="a"

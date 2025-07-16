@@ -2431,9 +2431,9 @@ export default function Home() {
         color: "var(--mantine-color-blue-1)",
       }}
     >
-      <Group align="flex-start" wrap="nowrap" gap="xl" p="sm">
+      <Group align="flex-start" wrap="nowrap" gap="xl" p="md" pl={"lg"}>
         <Title order={1} c="blue.1">
-            Shadowverse: Worlds Beyond - 盤面整理ツール
+            Shadowverse: Worlds Beyond - 除去確認+トークン整理
         </Title>
       </Group>
       <Group align="flex-start" wrap="nowrap" gap="xl" p="xl">
